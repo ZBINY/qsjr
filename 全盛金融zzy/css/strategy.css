@@ -1,0 +1,112 @@
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.w1200{
+	width: 1200px;
+	display: block;
+	margin:0 auto;
+}
+.strategy-middle{
+	padding-top: 22px;
+	font-family: "Microsoft yahei";
+}
+.strategy-middle .strategy-middle1,.strategy-middle .strategy-middle3{
+	height: 225px;
+	background: #f9f9f9;
+}
+.strategy-middle img{
+	float: left;
+	width: 366px;
+	height: 225px;
+} 
+.strategy-middle2 img,.strategy-middle4 img{
+	float: right;
+	margin-right: 52px;
+}
+.strategy-middle .from1,.strategy-middle .from2{
+	float: left;
+}
+.strategy-middle1 .from1,.strategy-middle3 .from1{
+	margin-top: 12px;
+}
+.strategy-middle2 .from2,.strategy-middle4 .from2,.strategy-middle2 img,.strategy-middle4 img{
+	margin-top: 54px;
+}
+.strategy-middle span{
+	font-size: 14px;
+	color: #747272;
+	margin-right: 6px;
+}
+.strategy-middle .title{
+	font-size: 24px;
+	color: #000;
+	margin:0 8px;
+}
+.strategy-middle .title-line{
+	display: inline-block;
+	width:4px;
+	height: 26px;
+	vertical-align: bottom;
+	background: url(../img/title_line.png) no-repeat;
+}
+.strategy-middle .strategy-middle1 .from1,.strategy-middle .strategy-middle3 .from1{
+	margin-left: 495px;
+}
+.strategy-middle .strategy-middle2 .from2,.strategy-middle .strategy-middle4 .from2{
+	margin-right: 495px;
+}
+.strategy-middle .strategy-middle2,.strategy-middle .strategy-middle4{
+	height:365px;
+	background-color:#fff; 
+	overflow: hidden; 
+}
+.strategy-middle .reading1 {
+	float: left;
+	width: 762px;
+	height: 151px;
+	font-size: 13px;
+    position: relative;
+}
+.strategy-middle .reading2{
+    float: left;
+	width: 709px;
+	height: 160px;
+	font-size: 13px;
+	margin-top: 16px;
+	position: relative;
+}
+.strategy-middle .reading1 .read1{
+	margin-bottom: 18px;
+    margin-top: 27px;
+}
+.strategy-middle .reading2 .read1{
+	margin-top: 39px;
+	margin-bottom: 18px;
+}
+.strategy-middle .reading1 .read1,.strategy-middle .reading1 .read2,.strategy-middle .reading2 .read1,.strategy-middle .reading2 .read2{
+	margin-left: 47px;
+	color:#9b9b9b;
+	line-height: 18px;
+}
+.strategy-middle .reading1 .icon-qutol,.strategy-middle .reading2 .icon-qutol{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icon1.png) -81px -79px no-repeat;
+	position: absolute;
+	left: 20px;
+	top:0;
+}
+.strategy-middle .reading1 .icon-qutor,.strategy-middle .reading2 .icon-qutor{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icon1.png) -81px -104px no-repeat;
+	position: absolute;
+	right: -22px;
+	bottom:0;
+}
+
+
